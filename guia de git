@@ -1,0 +1,14 @@
+1_git clone repot
+2_git add .
+3_git commit -d "archivo"
+
+
+
+
+
+
+
+
+
+
+git status //muestra estrado del repositorio
