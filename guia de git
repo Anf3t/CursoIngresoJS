@@ -1,7 +1,7 @@
 1_git clone repot
 2_git add .
 3_git commit -d "archivo"
-
+4_ git push
 
 
 
