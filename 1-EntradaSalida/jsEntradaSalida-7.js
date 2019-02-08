@@ -7,8 +7,8 @@ function sumar()
 	var a;
 	var b;
 
-	a=document.getElementById('').value
-	b=document.getElementById('').value
+	a=document.getElementById('numeroUno').value
+	b=document.getElementById('numeroDos').value
 
 	a=parseInt(a);
 	b=parseInt(b);
@@ -22,8 +22,8 @@ function restar()
 	var a;
 	var b;
 
-	a=document.getElementById('').value;
-	b=document.getElementById('').value;
+	a=document.getElementById('numeroUno').value;
+	b=document.getElementById('numeroDos').value;
 	
 	alert(a-b);
 }
@@ -33,8 +33,8 @@ function multiplicar()
 	var a;
 	var b;
 
-	a=document.getElementById('').value;
-	b=document.getElementById('').value;
+	a=document.getElementById('numeroUno').value;
+	b=document.getElementById('numeroDos').value;
 
 	alert(a*b);
 }
@@ -44,8 +44,8 @@ function dividir()
 	var a;
 	var b;
 
-	a=document.getElementById('').value;
-	b=document.getElementById('').value;
+	a=document.getElementById('numeroUno').value;
+	b=document.getElementById('numeroDos').value;
 
 	alert(a/b);
 }
