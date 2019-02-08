@@ -5,6 +5,7 @@ function sumar()
 {
 	var a;
 	var b;
+	var suma;
 
 	a=document.getElementById('numeroUno').value;
 	b=document.getElementById('numeroDos').value,
@@ -12,7 +13,9 @@ function sumar()
 	a=parseInt(a);
 	b=parseInt(b);
 
-	alert(a+b);
+	suma= a+b
+
+	alert("La suma es "+suma);
 
 }
 
