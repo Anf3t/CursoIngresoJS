@@ -49,5 +49,25 @@ function Promedio () //el resultado divido la cantida de numeros sumados
 }
 function PrecioFinal () 
 {
+	var precio1;
+	var precio2;
+	var precio3;
+	var promedioo;
+	var pf;
 	
+	
+
+	precio1=document.getElementById('PrecioUno').value;
+	precio2=document.getElementById('PrecioDos').value;
+	precio3=document.getElementById('PrecioTres').value;
+	
+	precio1=parseInt(precio1);
+	precio2=parseInt(precio2);
+	precio3=parseInt(precio3);
+
+	promedioo=(precio1+precio2+precio3)/100*21
+
+	pf=promedioo+precio1+precio2+precio3
+
+	alert(pf)
 }
