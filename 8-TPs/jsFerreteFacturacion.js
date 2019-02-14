@@ -20,7 +20,7 @@ function Sumar ()
 	precio2=parseInt(precio2);
 	precio3=parseInt(precio3);
 
-	as= (precio1+precio2)+precio3;
+	as= precio1+precio2+precio3;
 
 
 	alert("La suma total de los precios es"+as)
