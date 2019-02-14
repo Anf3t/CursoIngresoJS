@@ -8,51 +8,47 @@ function Sumar ()
 	var precio1;
 	var precio2;
 	var precio3;
-	var suma;
+	var as;
+	
 	
 
 	precio1=document.getElementById('PrecioUno').value;
 	precio2=document.getElementById('PrecioDos').value;
 	precio3=document.getElementById('PrecioTres').value;
-
+	
 	precio1=parseInt(precio1);
 	precio2=parseInt(precio2);
-	precio2=parseInt(precio3);
+	precio3=parseInt(precio3);
 
-	suma=precio1+precio2+precio3;
-
-	suma=total
+	as= (precio1+precio2)+precio3;
 
 
+	alert("La suma total de los precios es"+as)
 
 	
 }
-function Promedio () 
+function Promedio () //el resultado divido la cantida de numeros sumados
 {
 	var precio1;
 	var precio2;
 	var precio3;
-	var promedio;
+	var promedio1;
 	
 
 	precio1=document.getElementById('PrecioUno').value;
 	precio2=document.getElementById('PrecioDos').value;
 	precio3=document.getElementById('PrecioTres').value;
-
+	
 	precio1=parseInt(precio1);
 	precio2=parseInt(precio2);
-	precio2=parseInt(precio3);
-
-	promedio=
-
+	precio3=parseInt(precio3);
 	
+	promedio1=(precio1+precio2+precio3)/3;
 
-	
+	alert("El promedio es "+promedio1)
 }
 function PrecioFinal () 
 {
-	var precio4
-
-	precio4=total
+	
 	
 }
