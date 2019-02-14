@@ -23,7 +23,7 @@ function Sumar ()
 	as=precio1+precio2+precio3;
 
 
-	alert("La suma total de los precios es"+as)
+	alert("La suma total de los precios es "+as)
 
 	
 }
